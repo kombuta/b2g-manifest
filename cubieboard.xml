@@ -28,7 +28,7 @@
   </project>
   <project path="dalvik" name="fake-dalvik" remote="b2g" revision="master" />
   <project path="gaia" name="gaia.git" remote="mozillaorg" revision="master" />
-	<project path="gecko" name="gecko.git" remote="mozillaorg" revision="master" />
+  <project path="gecko" name="gecko.git" remote="mozillaorg" revision="master" />
   <project path="gonk-misc" name="gonk-misc" remote="b2g" revision="master" />
   <project path="rilproxy" name="rilproxy" remote="b2g" revision="master" />
   <project path="librecovery" name="librecovery" remote="b2g" revision="master" />
@@ -41,7 +41,7 @@
   <project path="bionic" name="platform_bionic" remote="b2g" revision="b2g_ics_strawberry"/>
   <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="development" name="platform/development" />
-	<project path="device/common" name="device/common" />
+  <project path="device/common" name="device/common" />
   <project path="device/sample" name="device/sample" />
   <project path="external/apriori" name="platform_external_apriori" remote="b2g" revision="master" />
   <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" />
@@ -79,7 +79,7 @@
   <project path="external/screencap-gonk" name="screencap-gonk" remote="b2g" revision="master" />
   <project path="external/skia" name="platform/external/skia" />
   <project path="external/sonivox" name="platform/external/sonivox" />
-	<project path="external/speex" name="platform/external/speex" />
+  <project path="external/speex" name="platform/external/speex" />
   <project path="external/sqlite" name="platform/external/sqlite" />
   <project path="external/stlport" name="platform/external/stlport" />
   <project path="external/strace" name="platform/external/strace" />
@@ -94,7 +94,7 @@
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" />
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
-	<project name="platform/frameworks/base" path="frameworks/base" remote="aosp" revision="refs/tags/android-4.0.1_r1.1" />
+  <project name="platform/frameworks/base" path="frameworks/base" remote="aosp" revision="refs/tags/android-4.0.1_r1.1" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />/
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="libcore" name="platform/libcore" />
