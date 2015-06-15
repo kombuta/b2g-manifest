@@ -13,7 +13,7 @@
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
   <project name="gaia" path="gaia" remote="mozillaorg" revision="master"/>
-  <project name="gecko" path="gecko" remote="mozillaorg" revision="master"/>
+	<!--  <project name="gecko" path="gecko" remote="mozillaorg" revision="master"/>-->
   <project name="fake-libdvm" path="dalvik" remote="b2g" revision="master"/>
   <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="master"/>
   <project name="librecovery" path="librecovery" remote="b2g" revision="master"/>
