@@ -94,9 +94,19 @@
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" />
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
-  <project name="platform/frameworks/base" path="frameworks/base" remote="aosp" revision="refs/tags/android-4.0.1_r1.1" />
+  <!--<project name="platform/frameworks/base" path="frameworks/base" remote="aosp" revision="refs/tags/android-4.0.1_r1.1" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />/
-  <project path="frameworks/support" name="platform/frameworks/support" />
+  <project path="frameworks/support" name="platform/frameworks/support" />-->
+  
+  <project name="openbox_frameworks_base" path="frameworks/base" remote="cubieboard" revision="openbox" />
+  <project name="openbox_frameworks_compile_libbcc" path="frameworks/compile/libbcc" remote="cubieboard" revision="openbox" />
+  <project name="openbox_frameworks_compile_linkloader" path="frameworks/compile/linkloader" remote="cubieboard" revision="openbox" />
+  <project name="openbox_frameworks_compile_slang" path="frameworks/compile/slang" remote="cubieboard" revision="openbox" />
+  <project name="openbox_frameworks_ex" path="frameworks/ex" remote="cubieboard" revision="openbox" />
+  <project name="openbox_frameworks_media_libvideoeditor" path="frameworks/media/libvideoeditor" remote="cubieboard" revision="openbox" />
+  <project name="openbox_frameworks_opt_emoji" path="frameworks/opt/emoji" remote="cubieboard" revision="openbox" />
+  <project name="openbox_frameworks_support" path="frameworks/support" remote="cubieboard" revision="openbox" />
+  
   <project path="libcore" name="platform/libcore" />
   <project path="ndk" name="platform/ndk" />
   <project path="prebuilt" name="platform/prebuilt" />
